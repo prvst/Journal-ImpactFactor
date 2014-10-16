@@ -27,7 +27,7 @@ Quick summary of what the module does.
 
 =head1 DESCRIPTION
 
-This module provides access to impact factor information of 1100 different scientific journals. You can access data from 2008 to 2013/2014. All data compiled here is from public domain. 
+This module provides access to impact factor information of 1100 different scientific journals. You can access data from 2008 to 2013/2014. All data compiled here is www.citefactor.org 
 
 =head2 Methods
 
