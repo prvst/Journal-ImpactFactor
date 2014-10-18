@@ -4,7 +4,7 @@ Journal::ImpactFactor - A list of updated scientiffic journal impact factor.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.04
 
 =head1 SYNOPSIS
 
@@ -15,7 +15,7 @@ Quick summary of what the module does.
     # instantiate the journal list
     my $if = Journal::ImpactFactor->new();
 
-    # search a jounal by name
+    # search a journal by name
     my $result = $if->search_by_name("Animal");
     
     # search a journal by issn
@@ -33,7 +33,7 @@ This module provides access to impact factor information of 1100 different scien
 
 =head3 search by name
 
-This method sreturns a JournalEntry object (see methods below).
+This method returns a JournalEntry object (see methods below).
 
     my $result = $if->search_by_name("name");
 
@@ -45,33 +45,49 @@ This method sreturns a JournalEntry object (see methods below).
 
 =head3 name
 
+Returns the journal name.
+
     say $result->name;
 
 =head3 issn
+
+Returns the journal ISSN number.
 
     say $result->issn;
 
 =head3 year_2008
 
+Return the Impact Factor for the year 2008.
+
     say $result->year_2008;
 
 =head3 year_2009
+
+Return the Impact Factor for the year 2009.
 
     say $result->year_2009;
 
 =head3 year_2010
 
+Return the Impact Factor for the year 2010.
+
     say $result->year_2010;
 
 =head3 year_2011
+
+Return the Impact Factor for the year 2011.
 
     say $result->year_2011;
 
 =head3 year_2012
 
+Return the Impact Factor for the year 2012.
+
     say $result->year_2012;
 
 =head3 year_2013_2014
+
+Return the Impact Factor for the years 2013/2014.
 
     say $result->year_2013_2014;
 
